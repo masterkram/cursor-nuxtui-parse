@@ -1,0 +1,28 @@
+{
+  "name": "nuxtui_context",
+  "version": "0.0.1",
+  "description": "An LLM context provider for NuxtUI",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mark Bruderer",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {},
+  "files": [
+    "build",
+    "src",
+    "components"
+  ],
+  "bin": {
+    "nuxtui-context": "./build/index.js"
+  }
+}
